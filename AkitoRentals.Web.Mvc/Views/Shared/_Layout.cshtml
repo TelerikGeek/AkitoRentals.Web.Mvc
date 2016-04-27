@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>@ViewBag.Title - My Kendo UI MVC Application</title>
+	<link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
+	<link href="@Url.Content("~/Content/kendo/2016.1.412/kendo.common-office365.min.css")" rel="stylesheet" type="text/css" />
+	<link href="@Url.Content("~/Content/kendo/2016.1.412/kendo.mobile.all.min.css")" rel="stylesheet" type="text/css" />
+	<link href="@Url.Content("~/Content/kendo/2016.1.412/kendo.dataviz.min.css")" rel="stylesheet" type="text/css" />
+	<link href="@Url.Content("~/Content/kendo/2016.1.412/kendo.office365.min.css")" rel="stylesheet" type="text/css" />
+	<link href="@Url.Content("~/Content/kendo/2016.1.412/kendo.dataviz.office365.min.css")" rel="stylesheet" type="text/css" />
+	<script src="@Url.Content("~/Scripts/kendo/2016.1.412/jquery.min.js")"></script>
+	<script src="@Url.Content("~/Scripts/kendo/2016.1.412/angular.min.js")"></script>
+	<script src="@Url.Content("~/Scripts/kendo/2016.1.412/jszip.min.js")"></script>
+	<script src="@Url.Content("~/Scripts/kendo/2016.1.412/kendo.all.min.js")"></script>
+	<script src="@Url.Content( "~/Scripts/kendo/2016.1.412/kendo.aspnetmvc.min.js" )"></script>
+</head>
+<body>
+	<div class="main-wrapper">
+		<div class="header-wrapper">
+			<div class="header-content-wrapper">
+				<span class="header-title">Akito Rentals Management Portal</span>
+			</div>
+		</div>
+		<div class="menu-wrapper">
+			<ul id="main-menu" style="100%;">
+				<li>Home</li>
+				<li>
+					Rentals Management
+					<ul>
+						<li>
+							Cars Management
+							<ul>
+								<li>Add/Edit Cars</li>
+								<li>Rental Cars Listing</li>
+								<li>Mileage Reports</li>
+							</ul>
+						</li>
+						<li>Rental Histories</li>
+					</ul>
+				</li>
+				<li>Customers</li>
+				<li>Logout</li>
+			</ul>
+		</div>
+		<div class="content-wrapper">
+			@RenderSection("featured", required: false)
+			<section class="content-wrapper main-content clear-fix">
+				@RenderBody()
+			</section>
+		</div>
+	</div>
+</body>
+</html>
+<script>
+    $(document).ready(function() {
+    	$("#main-menu").kendoMenu({
+			select: menu_onSelect
+    	});
+    });
+
+    function menu_onSelect(e) {
+    	var selectedItem = $(e.item).children('.k-link');
+
+    	if (selectedItem.text() === 'Add/Edit Cars') {
+    		document.location.href = 'http://localhost/akitorentalsweb/index.php?content=addcar';
+    	}
+    }
+</script>

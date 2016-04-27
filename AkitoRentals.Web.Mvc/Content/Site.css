@@ -1,0 +1,270 @@
+﻿body {
+    background-color: #C3C3C3;
+    text-align: center;
+	font-family: Calibri;
+}
+
+.main-wrapper {
+    display: block;
+    float: none;
+    width: 78%;
+    margin-top:  2%;
+	margin-right: auto;
+	margin-left: auto;
+    background-color: white;
+    border: 1px solid #666;
+}
+
+.header-wrapper
+{
+    background-image: url('../Images/banner.jpg');
+    background-size:100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    float: left;
+    width: 100%;
+    height: 390px;
+}
+
+.header-content-wrapper {
+    background-color: rgba(255,255,255, .5);
+    display: inline-block;
+    float: left;
+    width: 100%;
+    height: 390px;
+    text-align: left;
+    font-size: 80px;
+    padding: 0;
+    font-family: "Segoe UI Light";
+    color: #142323;
+}
+
+.header-title {
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.menu-wrapper
+{
+    display: inline-block;
+    float: left;
+    width: 100%;
+    text-align: left;
+}
+
+.content-wrapper {
+    
+    background-color: white;
+    display: inline-block;
+    float: left;
+    width: 100%;
+	align-content: center;
+	padding-bottom: 5%;
+}
+
+.login-panel {
+	width: 500px;
+	margin-top: 100px;
+	border-radius: 10px;
+	border: 1px solid #0098FF;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.login-form-wrapper
+{
+	margin: 5%;
+	width: 90%;
+}
+
+.label-wrapper
+{
+	margin-top: 10px;
+	text-align: left;
+	width: 100%;
+}
+
+.field-wrapper
+{
+	text-align: left;
+	width: 100%;
+}
+
+.login-button-wrapper 
+{
+	text-align: right;
+	width: 100%;
+	margin-top: 15px;
+}
+
+.login-textfield
+{
+	font-size: 21px;
+	font-family: Calibri;
+	letter-spacing: 1px;
+	padding: 4px 8px;
+	width: 100%;
+	margin: 5px 0;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+}
+
+.k-button {
+	border-radius: 4px;
+	padding: 6px 15px;
+}
+
+.error-label-wrapper
+{
+	text-align: center;
+	margin-top: 10px;
+	text-align: left;
+	width: 100%;
+	color: red;
+}
+
+.form-panel {
+	width: 1000px;
+	margin-top: 100px;
+	border-radius: 10px;
+	border: 1px solid #0098FF;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.generic-form-wrapper {
+    display: inline-block;
+    float: none;
+    margin: 5%;
+    width: 90%;
+    clear: both;
+}
+
+.form-row {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    height: 50px;
+}
+
+.form-label-wrapper {
+    padding-right: 4px;
+    display:inline-block;
+    float: left;
+    width: 38%;
+    text-align: right;
+    height: 44px;
+}
+
+.form-label-wrapper2 {
+    padding-right: 4px;
+    display:inline-block;
+    float: left;
+    width: 25%;
+    text-align: right;
+    height: 44px;
+}
+
+.form-field-wrapper2 {
+    height: 40px;
+    display:inline-block;
+    float: left;
+    width: 73%;
+    text-align: left;
+}
+
+.form-label {
+    line-height: 44px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.form-field-wrapper {
+    height: 40px;
+    display:inline-block;
+    float: left;
+    width: 60%;
+    text-align: left;
+}
+
+.textfield150 {
+    font-size: 17px;
+	font-family: Calibri;
+	letter-spacing: 1px;
+	padding: 4px 8px;
+	width: 150px;
+	margin: 5px 0;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+}
+
+.textfield200 {
+    font-size: 17px;
+	font-family: Calibri;
+	letter-spacing: 1px;
+	padding: 4px 8px;
+	width: 200px;
+	margin: 5px 0;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+}
+
+.textfield250 {
+    font-size: 17px;
+	font-family: Calibri;
+	letter-spacing: 1px;
+	padding: 4px 8px;
+	width: 250px;
+	margin: 5px 0;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+}
+
+.textfield300 {
+    font-size: 17px;
+	font-family: Calibri;
+	letter-spacing: 1px;
+	padding: 4px 8px;
+	width: 300px;
+	margin: 5px 0;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+}
+.textfield400 {
+    font-size: 17px;
+	font-family: Calibri;
+	letter-spacing: 1px;
+	padding: 4px 8px;
+	width: 400px;
+	margin: 5px 0;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+}
+
+.k-item{
+    text-align: left;
+}
+
+.standard-button-wrapper 
+{
+    display: inline-block;
+    float: left;
+	text-align: right;
+	width: 100%;
+	margin-top: 25px;
+}
+
+.divider {
+    display: inline-block;
+    float: left;
+    height: 2px;
+    background-color: #aaa;
+    width: 100%;
+}
+
+a {
+    font-size: 15px;
+    line-height: 33px;
+    color: dodgerblue;
+}

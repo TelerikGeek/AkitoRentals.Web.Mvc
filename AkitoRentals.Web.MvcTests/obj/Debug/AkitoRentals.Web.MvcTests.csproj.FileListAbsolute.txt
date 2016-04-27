@@ -1,0 +1,10 @@
+C:\inetpub\wwwroot\AkitoRentals.Web.Mvc\AkitoRentals.Web.MvcTests\bin\Debug\AkitoRentals.Web.MvcTests.dll
+C:\inetpub\wwwroot\AkitoRentals.Web.Mvc\AkitoRentals.Web.MvcTests\bin\Debug\AkitoRentals.Web.MvcTests.pdb
+C:\inetpub\wwwroot\AkitoRentals.Web.Mvc\AkitoRentals.Web.MvcTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\inetpub\wwwroot\AkitoRentals.Web.Mvc\AkitoRentals.Web.MvcTests\bin\Debug\System.Web.Mvc.dll
+C:\inetpub\wwwroot\AkitoRentals.Web.Mvc\AkitoRentals.Web.MvcTests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\inetpub\wwwroot\AkitoRentals.Web.Mvc\AkitoRentals.Web.MvcTests\bin\Debug\System.Web.Mvc.xml
+C:\inetpub\wwwroot\AkitoRentals.Web.Mvc\AkitoRentals.Web.MvcTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\inetpub\wwwroot\AkitoRentals.Web.Mvc\AkitoRentals.Web.MvcTests\obj\Debug\AkitoRentals.Web.MvcTests.csprojResolveAssemblyReference.cache
+C:\inetpub\wwwroot\AkitoRentals.Web.Mvc\AkitoRentals.Web.MvcTests\obj\Debug\AkitoRentals.Web.MvcTests.dll
+C:\inetpub\wwwroot\AkitoRentals.Web.Mvc\AkitoRentals.Web.MvcTests\obj\Debug\AkitoRentals.Web.MvcTests.pdb

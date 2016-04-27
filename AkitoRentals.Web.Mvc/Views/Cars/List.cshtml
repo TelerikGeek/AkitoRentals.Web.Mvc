@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>List</h2>
+
+@(Html.Kendo().Grid((IEnumerable<AkitoRentals.Web.Mvc.Models.ViewModels.CarViewModel>)ViewBag.CarRecords) //Bind the grid to ViewBag.Products
+		.Name("grid")
+		.Columns(columns =>
+		{
+			columns.Bound(car => car.CarId);
+			columns.Bound(car => car.VehicleNo);
+			columns.Bound( car => car.RentalCarCode );
+			columns.Bound ( car => car.MakeTitle );
+			columns.Bound ( car => car.ModelName );
+			columns.Bound ( car => car.AvailabilityTitle );
+			columns.Bound ( car => car.TypeTitle );
+			columns.Bound ( car => car.YearsOfUse );
+			columns.Bound ( car => car.MonthsOfUse );
+			columns.Bound ( car => car.SeatingCapacity );
+		} )
+		.Pageable() //Enable the paging.
+		.Sortable() //Enable the sorting.
+		.Groupable()
+  )
